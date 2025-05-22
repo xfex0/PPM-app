@@ -17,18 +17,18 @@ excel_path = r"C:\\Users\\Тарас\\Desktop\\datappm.xlsx"
 server = 'TARIK-LAPTOP'
 database = 'PPM_Group'
 username = 'NewLogin'
-password = '123'
+password = 'pas'
 table_name_dbf = 'Table_1'
 table_name_excel = 'ExcelTransactions_New'
 table_name_datappm = 'datappm'
 table_name_finmap = 'FinmapTransactions'
-TOKEN = "6993434961:AAEGyvYPwr4ouic_jHA5L5yErgu0RAKAljs"
-CHAT_ID = "-1002545826247"
+TOKEN = "token"
+CHAT_ID = "id"
 
 # === Finmap API ===
 finmap_url = "https://api.finmap.online/v2.2/operations/list"
 finmap_headers = {
-    "apiKey": "0b6938ce-d081-4a32-acf2-84127d976142152352516fe05dbadcc23493187424afc24d4f1c"
+    "apiKey": "apikey"
 }
 
 # === Підключення через SQLAlchemy ===
