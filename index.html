@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
     <style>
         html, body {
             margin: 0;
@@ -9,22 +9,42 @@
             height: 100%;
         }
         body {
-            background-image: url('webim.jpg');
+            background-image: url('images.jpg');
             background-position: center;
             background-repeat: no-repeat;
-            background-size: contain; 
-            background-color: black; 
+            background-size: cover;
             color: white;
+            font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: Arial, sans-serif;
-            font-size: 24px;
             text-align: center;
+            flex-direction: column;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 15px;
+        }
+        a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <p>This is my first AWESOME portfolio at GitHub.</p>
+    <div class="container">
+        <h1>Привіт! Я Володя </h1>
+        <p>Python developer</p>
+        <p>Email: <a href="mail to:xfex2014@gmail.com">xfex2014@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/xfex0" target="_blank">github.com/xfex0</a></p>
+        <h2>Мої проєкти:</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li><a href="https://github.com/xfex0/PPM-app" target="_blank">Проєкт 1: Конвейер даних </a></li>
+        </ul>
+    </div>
 </body>
 </html>
